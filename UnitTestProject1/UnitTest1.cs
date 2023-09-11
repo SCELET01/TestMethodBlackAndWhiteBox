@@ -11,7 +11,7 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestMethod1()
         {
-            Test test = new Test();
+            Test test = new Test(); 
             Assert.IsTrue(test.Sum(3,8) == 11);
         }
         [TestMethod]
